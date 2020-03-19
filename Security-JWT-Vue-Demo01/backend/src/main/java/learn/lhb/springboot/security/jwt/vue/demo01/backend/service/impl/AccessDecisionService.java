@@ -56,7 +56,7 @@ public class AccessDecisionService {
     private List<String > queryUrlByUserName(String username) {
         switch (username) {
             case "admin":
-                return Arrays.asList("/innerMsg", "/secret","/user/info");
+                return Arrays.asList("/innerMsg", "/secret","/user/info","/user/logout");
             case "user":
                 return Arrays.asList("/innerMsg");
             default:

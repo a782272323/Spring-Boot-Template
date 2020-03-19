@@ -24,6 +24,18 @@ public class MapperUtils {
         return objectMapper;
     }
 
+//    /**
+//     * json2obj
+//     * @param jsonStr
+//     * @param clazz
+//     * @param <T>
+//     * @return
+//     * @throws Exception
+//     */
+//    public static <T> T json2obj(String jsonStr,Class<T> clazz) throws Exception{
+//        return (T) objectMapper.readValue(jsonStr, Object.class);
+//    }
+
     /**
      * 转换为 JSON 字符串
      *

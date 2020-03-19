@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SSM" />
+    <type id="Spring" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/Security-JWT-Vue-Demo01/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Https/https-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-custom/lhb-master/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-custom/lhb-user-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Thymeleaf/thymeleaf-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Understand-Starter/understand-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Freemarker/freemarker-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Global-Exception/demo01/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

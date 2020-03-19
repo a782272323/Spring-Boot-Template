@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="backend" />
+        <module name="thymeleaf-demo01" />
+        <module name="freemarker-demo01" />
+        <module name="lhb-user-master" />
+        <module name="understand-starter" />
+        <module name="ssm01" />
+        <module name="demo01" />
+        <module name="https-demo01" />
+        <module name="lhb-master" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="backend" target="1.8" />
+      <module name="demo01" target="1.8" />
+      <module name="freemarker-demo01" target="1.8" />
+      <module name="https-demo01" target="1.8" />
+      <module name="lhb-master" target="1.5" />
+      <module name="lhb-user-master" target="1.8" />
+      <module name="ssm01" target="1.5" />
+      <module name="thymeleaf-demo01" target="1.8" />
+      <module name="understand-starter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend" options="-parameters" />
+      <module name="demo01" options="-parameters" />
+      <module name="freemarker-demo01" options="-parameters" />
+      <module name="https-demo01" options="-parameters" />
+      <module name="lhb-user-master" options="-parameters" />
+      <module name="thymeleaf-demo01" options="-parameters" />
+    </option>
+  </component>
+</project>

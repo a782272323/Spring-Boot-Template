@@ -1,6 +1,7 @@
 package learn.lhb.springboot.security.jwt.vue.demo01.backend.security.filter;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import io.jsonwebtoken.Jwts;
 import learn.lhb.springboot.security.jwt.vue.demo01.backend.entity.JwtUser;
@@ -41,6 +42,7 @@ public class JwtHeadFilter extends OncePerRequestFilter {
                     .getSubject();
             Gson gson = new Gson();
             user = gson.fromJson(userJson, JwtUser.class);
+
             //todo: 可以在这里添加检查用户是否过期,冻结...
         }catch (Exception e){
             //这里也可以filterChain.doFilter(request,response)然后return,那最后就会调用

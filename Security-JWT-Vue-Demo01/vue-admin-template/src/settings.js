@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: '梁鸿斌登录权限模版一',
 
   /**
    * @type {boolean} true | false

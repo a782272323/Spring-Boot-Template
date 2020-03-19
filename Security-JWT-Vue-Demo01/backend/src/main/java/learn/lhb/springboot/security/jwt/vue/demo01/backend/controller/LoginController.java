@@ -22,7 +22,7 @@ public class LoginController {
 
     @GetMapping("info")
     public BaseResult info(Authentication authentication) {
-        System.out.println("前后交互成功!");
+
         System.out.println(authentication.getName());
         LoginInfo loginInfo = new LoginInfo();
         loginInfo.setName(authentication.getName());
@@ -32,8 +32,10 @@ public class LoginController {
 
     @PostMapping("logout")
     public BaseResult logout(HttpServletRequest request) {
-        String token = request.getParameter("Authentication");
-        return null;
+        System.out.println("前后交互成功!");
+//        String token = request.getParameter("Authentication");
+//        System.out.println(token);
+        return BaseResult.ok();
 
     }
 }
