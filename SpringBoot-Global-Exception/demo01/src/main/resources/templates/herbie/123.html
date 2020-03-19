@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Herbie Leung</title>
+</head>
+<body>
+<h1>5xx(123.html)异常页面</h1>
+<table border="1">
+    <tr>
+        <th>path</th>
+        <td th:text="${path}"></td>
+    </tr>
+    <tr>
+        <td>error</td>
+        <td th:text="${error}"></td>
+    </tr>
+    <tr>
+        <td>message</td>
+        <th th:text="${message}"></th>
+    </tr>
+    <tr>
+        <td>timestamp</td>
+        <td th:text="${timestamp}"></td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td th:text="${status}"></td>
+    </tr>
+</table>
+</body>
+</html>
