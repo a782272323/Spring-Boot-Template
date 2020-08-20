@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>learn.lhb.aop.logging</groupId>
-    <artifactId>demo01</artifactId>
+    <artifactId>logging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop-logging</name>
+    <name>logging</name>
     <description>springboot-aop-logging</description>
 
     <properties>
@@ -64,6 +64,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>learn.lhb.aop.logging.AopLoggingApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
